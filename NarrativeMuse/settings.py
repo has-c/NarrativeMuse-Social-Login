@@ -29,9 +29,12 @@ ALLOWED_HOSTS = []
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'index'
 LOGOUT_REDIRECT_URL = 'home'
 ACCOUNT_EMAIL_VERIFICATION = 'none'
+LOGIN_URL = 'login'
+
+GOOGLE_RECAPTCHA_SECRET_KEY = '6LcRvFcUAAAAALbPC9ZUbTZzktrPViux5hf6Oa6R'
 
 
 
@@ -147,3 +150,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+	os.path.join(BASE_DIR, 'loginpage/static'), 
+]

@@ -1,0 +1,233 @@
+body {
+    padding-top: 5rem;
+  }
+  .starter-template {
+    padding: 5rem 1.5rem 0rem 1.5rem;
+  }
+header {
+    background:#fff;
+    border-bottom:1px solid #e7e7e7;
+}
+ nav a {
+     color:#333;
+ } 
+ nav .nav-link {
+     text-transform:uppercase;
+ }
+a.logo img {
+    width:260px;
+  }
+.navbar-nav .nav-link {
+      color:#333;
+  }
+ .navbar-nav-svg {
+    display: inline-block;
+    vertical-align: text-top;
+}
+main {
+  padding-bottom:40px;
+}
+h1 {
+    font-weight:200;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: .25rem .95rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .7rem;
+}
+.btn-orange {
+    background:#F16541;
+    text-transform:none;
+    color:#fff;
+}
+.btn-teal {
+    background:#5FB9B3;
+    text-transform:none;
+    color:#333;
+}
+.btn-yellow {
+    background:#FFE149;
+    text-transform:none;
+    color:#333;
+}
+.btn-facebook {
+    background:#4267B2;
+    text-transform:none;
+    color:#fff;
+    
+}
+.btn-google {
+    border:1px solid #eee;
+}
+.btn-outline-orange {
+    color: #333;
+    background-color: transparent;
+    background-image: none;
+    border-color: #F16541;
+}
+.btn img {
+    height:20px;
+    margin-right:10px;
+}
+button {
+    color:#333;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.profile-image {
+ width:40px;
+}
+.separator {
+    margin-bottom:60px;
+}
+.book-cover {
+ width:150px;
+ margin-bottom:10px;
+}
+.book-title {
+ font-size:1.5rem;
+ font-weight:300;
+}
+.symbol {
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px double white;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .symbol-empty {
+    background-color: #ccc;
+  }
+  
+  .symbol-filled {
+    background-color: black;
+  }
+.fa-heart {
+    font-size:1.5rem;
+    margin-right:.2rem;
+}
+.custom-heart {
+    color: red;
+  }
+.form-group {
+    margin-bottom:40px;
+}
+.form-option {
+    color: #9ca6af;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.form-option:after, .form-option:before {
+    border-top: 1px solid #ccd3d7;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    z-index: 0;
+}
+.form-option:before {
+    left: auto;
+    right: 0;
+}
+.support-section {
+    margin-top:60px;
+    background:#FBF7E9;
+}
+.support-section h3 {
+    font-weight:200;
+    margin-bottom:40px;
+}
+footer {
+    background:#5FB9B4;
+}
+footer .footer-menu {
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.footer-menu ul {
+    padding:0px;
+    list-style-type:none;
+
+}
+.footer-menu a {
+    color:#fff;
+}
+footer h2 {
+    font-size:1rem;
+    text-transform:uppercase;
+    color:#fff;
+}
+footer .footer-copyright {
+    background-image:url('../images/footer-background.jpg');
+    background-size:cover;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.matrix-table {
+    width:100%;
+}
+.matrix-table td {
+    padding: 3px;
+}
+.matrix-table .radio-button-label-text {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.matrix-col-label {
+    width:20%;
+}
+.matrix-row-even td {
+    background:#eee;
+}
+@media only screen and (max-width: 480px) {
+     .matrix-table.reflow .radio-row-text, .matrix-table.reflow .smusr_radio-row-text {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+ .matrix-table.reflow thead {
+    display: none;
+}
+ .matrix-table.reflow tbody,  .matrix-table.reflow tr,  .matrix-table.reflow td {
+    display: block;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+ .matrix-table.reflow td.matrix-row-label-cell {
+    display: block;
+    padding-left: 0;
+    margin: 10px 0 5px;
+    border-radius: 4px;
+    background: transparent !important;
+}
+ .matrix-table.reflow .matrix-row-label {
+    padding: 3px 0;
+}
+ .matrix-table.reflow .radio-button-display {
+    float: left;
+    margin: 0;
+}
+.matrix-table.reflow .radio-button-label-text {
+    position: static;
+    left: auto;
+    top: auto;
+}
+.matrix-row-even td, td.matrix-row-label-cell {
+    background:transparent;
+}
+.matrix-row-even td, .matrix-row-odd td  {
+    background:#eee;
+}
+}
